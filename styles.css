@@ -3,3 +3,16 @@
 body{
     font-family: 'Ubuntu', sans-serif;
 }
+ 
+/* container */
+
+.container
+{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.central-container
+{
+    margin: auto;
+    max-width: 600px;
+}
