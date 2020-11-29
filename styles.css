@@ -1,13 +1,5 @@
-body
-{
-   color: blue;
-}
-h1{
-    color: red;
-}
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
 
-h2{
-    color: darkgoldenrod;
+body{
+    font-family: 'Ubuntu', sans-serif;
 }
-
-
