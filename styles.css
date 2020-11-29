@@ -9,9 +9,9 @@ body {
     font-family: 'Ubuntu', sans-serif;
 }
 
-/* hr{
-    margin: 20px;
-} */
+hr{
+    margin: 2rem 0rem;
+}
 
 /* container */
 
@@ -32,16 +32,17 @@ body {
 
 .primary-link {
    background-color: var(--primary-color);
-   padding: 0.5rem 1rem 0.5rem 1rem;
+   /* padding: 0rem 1rem; */
    border-radius: 0.5rem;
    color: white;
+   margin-right:10px;
 }
 
 .secondary-link{
     color: var(--primary-color);
     border-radius: 0.5rem;
-    padding: 0.5rem 1rem 0.5rem 1rem;
-    border:solid var (var(--primary-color));
+    /* padding: 0rem 1rem; */
+    border:solid var(--primary-color);
 }
 
 /* remove underline from link  and want some padding*/
