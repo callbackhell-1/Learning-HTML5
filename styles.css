@@ -1,19 +1,52 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
 
-body{
+:root {
+    --primary-color: #6C63FF;
+
+}
+
+body {
     font-family: 'Ubuntu', sans-serif;
 }
- 
+
+/* hr{
+    margin: 20px;
+} */
+
 /* container */
 
-.container
-{
+.container {
     padding-left: 1rem;
     padding-right: 1rem;
 }
-.central-container
-{
+
+.central-container {
     margin: auto;
     max-width: 600px;
 }
+
 /* Now we will work on links */
+
+
+/* color of .primary-link is color of .primary-color */
+
+.primary-link {
+   background-color: var(--primary-color);
+   padding: 0.5rem 1rem 0.5rem 1rem;
+   border-radius: 0.5rem;
+   color: white;
+}
+
+.secondary-link{
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border:solid var (var(--primary-color));
+}
+
+/* remove underline from link  and want some padding*/
+
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
