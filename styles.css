@@ -41,7 +41,7 @@ hr{
 .secondary-link{
     color: var(--primary-color);
     border-radius: 0.5rem;
-    /* padding: 0rem 1rem; */
+    padding: 0rem 1rem;
    border:solid var(--primary-color);
 }
 
@@ -50,4 +50,15 @@ hr{
 .link {
     text-decoration: none;
     padding: 0.5rem 1rem;
+}
+
+/* list */
+
+/* we dont want bullet in it so, we use  : */
+.non-bullet{
+    list-style: none;
+}
+.list-item-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
 }
