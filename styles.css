@@ -42,7 +42,7 @@ hr{
     color: var(--primary-color);
     border-radius: 0.5rem;
     /* padding: 0rem 1rem; */
-    border:solid var(--primary-color);
+   border:solid var(--primary-color);
 }
 
 /* remove underline from link  and want some padding*/
