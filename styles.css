@@ -2,7 +2,7 @@
 
 :root {
     --primary-color: #6C63FF;
-
+    --gray-color:#4B5563;
 }
 
 body {
@@ -89,4 +89,19 @@ hr{
 
 /* header */
 
+.header .header-img{
+    margin: auto;
+    display: block;
+    max-width: 350px;
+}
+.header{
+    padding: 2rem;
+}
+.header .header-heading{
+    color: var(--gray-color);
+    padding-top: 1rem;
+}
+.heading-focused{
+    color: var(--primary-color);
+}
 
