@@ -9,6 +9,7 @@
 body {
     font-family: 'Ubuntu', sans-serif;
     margin: 0px;
+    
 }
 
 hr{
@@ -25,6 +26,7 @@ hr{
 .central-container {
     margin: auto;
     max-width: 600px;
+    text-align: center;
 }
 
 /* Now we will work on links */
@@ -34,7 +36,7 @@ hr{
 
 .primary-link {
    background-color: var(--primary-color);
-   /* padding: 0rem 1rem; */
+   padding: 0rem 1rem;
    border-radius: 0.5rem;
    color: white;
    margin-right:10px;
@@ -62,7 +64,7 @@ hr{
 }
 .list-item-inline{
     display: inline;
-    padding: 0rem 0.5rem;
+    padding: 0rem 1rem;
 }
 
 
@@ -119,6 +121,8 @@ hr{
 }
  .ow{
     background-color:  var(--off-white-color);
+    text-align: center;
+   
 }
 
 /* footer */
